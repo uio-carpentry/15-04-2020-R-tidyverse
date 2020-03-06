@@ -36,6 +36,7 @@ workshop_repo: "https://github.com/swcarpentry/workshop-template"
 workshop_site: "https://swcarpentry.github.io/workshop-template"
 training_site: "https://swcarpentry.github.io/instructor-training"
 swc_installer: "https://github.com/swcarpentry/windows-installer/releases/download/v0.3/SWCarpentryInstaller.exe"
+uio_carp_site: "https://uio.no/carpentry"
 
 # Surveys.
 swc_pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
