@@ -1,0 +1,239 @@
+I"I$
+<h2 id="general">General Information</h2>
+
+<p align="center">
+  <em>
+    This is not a full Software Carpentry Workshop, but an R tidyverse workshop based on Software Carpentry material.
+  </em>
+</p>
+
+<p id="who">
+  <strong>Who:</strong>
+  The course is aimed at graduate students and other researchers.
+  <strong>
+    Some experience of working with Git and Github is recommended for those attending the workshop.
+  </strong>
+</p>
+
+<p id="where">
+  <strong>Where:</strong>
+  Domus Juridica, Room 5110, Kristian Augusts gate 17, Oslo.
+  Get directions with
+  <a href="//www.openstreetmap.org/?mlat=59.917040&amp;mlon=10.736960&amp;zoom=16">OpenStreetMap</a>
+  or
+  <a href="//maps.google.com/maps?q=59.917040,10.736960">Google Maps</a>.
+</p>
+
+<p id="when">
+  <strong>When:</strong>
+  April 15-16 2020.
+  <a href="//calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Software Carpentry Workshop&amp;dates=20200415/20200416&amp;trp=false&amp;sprop&amp;sprop=name:&amp;sf=true&amp;output=xml&amp;location=Domus Juridica, Room 5110, Kristian Augusts gate 17, Oslo&amp;details=Software Carpentry Workshop at R TidyVerse @ UiO">Add to your Google Calendar.</a>
+
+</p>
+
+<p id="requirements">
+  <strong>Requirements:</strong> Participants must bring a laptop with a
+  Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
+  on. They should have a few specific software packages installed (listed
+  <a href="#setup">below</a>). They are also required to abide by
+  
+  Software Carpentry's
+  
+  <a href="https://software-carpentry.org/conduct.html">Code of Conduct</a>.
+</p>
+
+<p id="accessibility">
+  <strong>Accessibility:</strong> We are committed to making this workshop
+  accessible to everybody.
+  The workshop organizers have checked that:
+</p>
+<ul>
+  <li>The room is wheelchair / scooter accessible.</li>
+  <li>Accessible restrooms are available.</li>
+</ul>
+<p>
+  Materials will be provided in advance of the workshop and
+  large-print handouts are available if needed by notifying the
+  organizers in advance.  If we can help making learning easier for
+  you (e.g. sign-language interpreters, lactation facilities) please
+  get in touch (using contact details below) and we will
+  attempt to provide them.
+</p>
+
+<p id="contact">
+  <strong>Contact</strong>:
+  Please email
+  
+    
+      
+        
+      
+      <a href="mailto:a.m.mowinckel@psykologi.uio.no">a.m.mowinckel@psykologi.uio.no</a>
+    
+  
+  for more information.
+</p>
+
+<hr />
+
+<h2 id="schedule">Schedule</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3>Tuesday, 15 April 2020</h3>
+    <table class="table table-striped">
+      <tr> <td>08:30</td>  <td>Introduction to RStudio and tidyverse</td> </tr>
+      <tr> <td>09:00</td>  <td>Elegant data visualisations with ggplot2</td> </tr>
+      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>10:45</td>  <td>Elegant data visualisations with ggplot2 (continued)</td> </tr>
+      <tr> <td>11:30</td>  <td>Lunch break</td> </tr>
+      <tr> <td>12:30</td>  <td>Data manipulation with dplyr</td> </tr>
+      <tr> <td>13:45</td>  <td>Coffee</td> </tr>
+      <tr> <td>14:00</td>  <td>Easily arrange data with tidyr</td> </tr>
+      <tr> <td>15:00</td>  <td>Quick intro to vectors and lists</td> </tr>
+      <tr> <td>16:00</td>  <td>Next week assignments and wrap-up</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Wednesday, 16 February 2020</h3>
+    <table class="table table-striped">
+      <tr> <td>08:30</td>  <td>Recap of previous week materials and pre-read</td> </tr>
+      <tr> <td>09:30</td>  <td>Introduction to functions in R</td> </tr>
+      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>10:45</td>  <td>Functional programming with purrr</td> </tr>
+      <tr> <td>11:30</td>  <td>Lunch break</td> </tr>
+      <tr> <td>12:30</td>  <td>Functional programming with purrr</td> </tr>
+      <tr> <td>13:45</td>  <td>Coffee</td> </tr>
+      <tr> <td>14:00</td>  <td>Operating with list-cols</td> </tr>
+      <tr> <td>16:00</td>  <td>Workshop wrap-up</td> </tr>
+    </table>
+  </div>
+</div>
+
+<hr />
+
+<h2 id="setup">Setup</h2>
+
+<p>
+  To participate in a
+  
+  Software Carpentry
+  
+  workshop,
+  you will need access to the software described below.
+  In addition, you will need an up-to-date web browser.
+</p>
+<p>
+  We maintain a list of common issues that occur during installation as a reference for instructors
+  that may be useful on the
+  <a href="https://github.com/swcarpentry/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+
+<div id="git"> 
+  <h3>Git</h3>
+  <p>
+    Git is a version control system that lets you track who made changes
+    to what when and has options for easily updating a shared or public
+    version of your code
+    on <a href="https://github.com/">github.com</a>. You will need a
+    <a href="https://help.github.com/articles/supported-browsers/">supported</a>
+    web browser (current versions of Chrome, Firefox or Safari,
+    or Internet Explorer version 9 or above).
+  </p>
+  <p>
+    You will need an account at <a href="https://github.com/">github.com</a>
+    for parts of the Git lesson. Basic GitHub accounts are free. We encourage
+    you to create a GitHub account if you don't have one already.
+    Please consider what personal information you'd like to reveal. For
+    example, you may want to review these
+    <a href="https://help.github.com/articles/keeping-your-email-address-private/">instructions
+    for keeping your email address private</a> provided at GitHub.
+  </p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="git-windows">Windows</h4>
+      <p>
+        Git should be installed on your computer as part of your Bash
+        install (described above).
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="git-macosx">macOS</h4>
+      <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">Video Tutorial</a>
+      <p>
+        <strong>For OS X 10.9 and higher</strong>, install Git for Mac
+        by downloading and running the most recent "mavericks" installer from
+        <a href="http://sourceforge.net/projects/git-osx-installer/files/">this list</a>.
+        After installing Git, there will not be anything in your <code>/Applications</code> folder,
+        as Git is a command line program.
+        <strong>For older versions of OS X (10.5-10.8)</strong> use the
+        most recent available installer labelled "snow-leopard"
+        <a href="http://sourceforge.net/projects/git-osx-installer/files/">available here</a>.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="git-linux">Linux</h4>
+      <p>
+        If Git is not already available on your machine you can try to
+        install it via your distro's package manager. For Debian/Ubuntu run
+        <code>sudo apt-get install git</code> and for Fedora run
+        <code>sudo dnf install git</code>.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div id="r"> 
+  <h3>R</h3>
+
+  <p>
+    <a href="http://www.r-project.org">R</a> is a programming language
+    that is especially powerful for data exploration, visualization, and
+    statistical analysis. To interact with R, we use
+    <a href="http://www.rstudio.com/">RStudio</a>.
+  </p>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h4 id="r-windows">Windows</h4>
+      <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial</a>
+      <p>
+        Install R by downloading and running
+        <a href="http://cran.r-project.org/bin/windows/base/release.htm">this .exe file</a>
+        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
+        Also, please install the
+        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+        Note that if you have separate user and admin accounts, you should run the 
+        installers as administrator (right-click on .exe file and select "Run as 
+        administrator" instead of double-clicking). Otherwise problems may occur later, 
+        for example when installing R packages.
+        You will also need to install <a href="https://cran.r-project.org/bin/windows/Rtools/index.html">Rtools</a>
+        to get certain packages we will be using to install.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="r-macosx">macOS</h4>
+      <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial</a>
+      <p>
+        Install R by downloading and running
+        <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">this .pkg file</a>
+        from <a href="http://cran.r-project.org/index.html">CRAN</a>.
+        Also, please install the
+        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h4 id="r-linux">Linux</h4>
+      <p>
+        You can download the binary files for your distribution
+        from <a href="http://cran.r-project.org/index.html">CRAN</a>. Or
+        you can use your package manager (e.g. for Debian/Ubuntu
+        run <code>sudo apt-get install r-base</code> and for Fedora run
+        <code>sudo dnf install R</code>).  Also, please install the
+        <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
+      </p>
+    </div>
+  </div>
+</div>
+:ET
