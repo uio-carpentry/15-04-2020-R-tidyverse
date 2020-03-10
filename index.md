@@ -268,12 +268,12 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
         from <a href="http://cran.r-project.org/index.html">CRAN</a>.
         Also, please install the
         <a href="http://www.rstudio.com/ide/download/desktop">RStudio IDE</a>.
-        Note that if you have separate user and admin accounts, you should run the 
+        You will also need to install <a href="https://cran.r-project.org/bin/windows/Rtools/index.html">Rtools</a>
+        to get certain packages we will be using to install.
+        <b>Note</b> that if you have separate user and admin accounts, you should run the 
         installers as administrator (right-click on .exe file and select "Run as 
         administrator" instead of double-clicking). Otherwise problems may occur later, 
         for example when installing R packages.
-        You will also need to install <a href="https://cran.r-project.org/bin/windows/Rtools/index.html">Rtools</a>
-        to get certain packages we will be using to install.
       </p>
     </div>
     <div class="col-md-4">
